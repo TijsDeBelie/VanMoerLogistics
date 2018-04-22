@@ -17,7 +17,7 @@ public class PersoonController {
     @Autowired
     protected BrainstormSessieService brainstormSessieService=null; // ready for dependency injection
 
-    @RequestMapping(value={"/home.html","/index.html","lijst.html"},method=RequestMethod.GET)
+    @RequestMapping(value={"/home.html","/index.html","/lijst.html"},method=RequestMethod.GET)
     public String index(ModelMap model){
         List<Klant> deLijst = brainstormSessieService.geefAlleKlanten();
         model.addAttribute("klanten", deLijst);

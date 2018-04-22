@@ -1,17 +1,30 @@
 
 package be.odisee.brainstorm.domain;
 
+
+import org.springframework.data.annotation.Id;
+
 import java.util.List;
 import java.util.Date;
 
+
+import javax.persistence.Column;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
 /**
  * @author aikod
  * @version 1.0
  * @created 25-Mar-2018 23:18:12
  */
-public class Klant extends Rol {
 
+
+
+@Entity
+public class Klant extends Rol {
+	@Column(name="bedrijfsnaam")
 	private String bedrijfsnaam;
+	@Column(name="emailadres")
 	private String emailadres;
 
 	public Klant() {
@@ -22,7 +35,7 @@ public class Klant extends Rol {
 		super.finalize();
 	}
 
-	public Klant(String voornaam,String familienaam,String gebruikersnaam, String paswoord, String status, String bedrijfsnaam, String emailadres){
+		public Klant(String voornaam,String familienaam,String gebruikersnaam, String paswoord, String status, String bedrijfsnaam, String emailadres){
 		this.setVoornaam(voornaam);
 		this.setFamilienaam(familienaam);
 		this.setGebruikersnaam(gebruikersnaam);
@@ -68,6 +81,7 @@ public class Klant extends Rol {
 	public String getBedrijfsnaam() {
 		return bedrijfsnaam;
 	}
+
 
 	public void setBedrijfsnaam(String bedrijfsnaam) {
 		this.bedrijfsnaam = bedrijfsnaam;
