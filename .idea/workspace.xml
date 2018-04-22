@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfd4ff7-b2ea-41a2-b6b8-76722ff8b2ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT/WEB-INF/classes/be/odisee/brainstorm/controller/PersoonController.class" afterPath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT/WEB-INF/classes/be/odisee/brainstorm/controller/PersoonController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/odisee/brainstorm/controller/PersoonController.class" afterPath="$PROJECT_DIR$/target/classes/be/odisee/brainstorm/controller/PersoonController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java" afterPath="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java" afterPath="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuwePersoon.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuwePersoon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT/WEB-INF/views/index.html" afterPath="$PROJECT_DIR$/target/brainstorm2017wa2-0.0.1-SNAPSHOT/WEB-INF/views/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/NieuweLocatie.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuweLocatie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="JpaConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/config/JpaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,21 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersoonController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PersoonController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="321">
+              <caret line="59" column="63" lean-forward="false" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persoon.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="persoon.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="127">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -73,8 +53,8 @@
       <file leaf-file-name="Rol.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -114,7 +94,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuwePersoon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+              <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Klant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Klant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -123,8 +113,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="90" lean-forward="false" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+            <state relative-caret-position="264">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -158,10 +148,11 @@
         <option value="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Klant.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuwePersoon.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java" />
       </list>
     </option>
   </component>
@@ -1088,12 +1079,12 @@
       <workItem from="1524231124978" duration="336000" />
       <workItem from="1524301136428" duration="3719000" />
       <workItem from="1524382162161" duration="10026000" />
-      <workItem from="1524404975073" duration="2014000" />
+      <workItem from="1524404975073" duration="4808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16095000" />
+    <option name="totallyTimeSpent" value="18889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -1414,16 +1405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Klant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuweLocatie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1535,14 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="90" lean-forward="false" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1551,10 +1524,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="127">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1562,23 +1543,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nieuwePersoon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Klant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/domain/Rol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/odisee/brainstorm/controller/PersoonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/persoon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="321">
+          <caret line="59" column="63" lean-forward="false" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
           <folding />
         </state>
       </provider>

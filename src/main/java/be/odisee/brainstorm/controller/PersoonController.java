@@ -21,7 +21,7 @@ public class PersoonController {
     public String index(ModelMap model){
         List<Klant> deLijst = brainstormSessieService.geefAlleKlanten();
         model.addAttribute("klanten", deLijst);
-        return "/index";
+        return "index";
     }
     // je zal naar index.jsp gaan
 
@@ -29,7 +29,7 @@ public class PersoonController {
     public String persoonDetail(@RequestParam("id") Integer id, ModelMap model){
         Klant klant = brainstormSessieService.zoekKlantMetId(id);
         model.addAttribute("klant", klant);
-        return "/klant";
+        return "klant";
     }
     // je zal naar persoon.jsp gaan
     
@@ -37,7 +37,7 @@ public class PersoonController {
     public String persoonDetailViaEmail(@RequestParam("email") String email, ModelMap model){
         Klant klant = brainstormSessieService.zoekKlantMetEmail(email);
         model.addAttribute("klant", klant);
-        return "/klant";
+        return "klant";
     }
     // je zal naar persoon.jsp gaan
     
@@ -57,8 +57,8 @@ public class PersoonController {
                 klant.getGebruikersnaam(),
                 klant.getBedrijfsnaam(),
                 klant.getEmailadres());
-        System.out.println("DEBUG klantgegevens familienaam: "+klant.getFamilienaam());
-        return "redirect:persoon.html?id="+toegevoegdKlant.getId();
+        System.out.println("DEBUG klantgegevens familienaam: " + klant.getFamilienaam());
+        return "redirect:persoon.html?id=" + toegevoegdKlant.getId();
     }
     // je zal naar de detailpagina van de toegevoegde persoon gaan
 
