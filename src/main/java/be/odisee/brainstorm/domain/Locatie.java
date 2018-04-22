@@ -15,7 +15,6 @@ public class Locatie {
 	private int id;
 	private List<Product> producten;
 	private String status;
-	private Route m_Route;
 
 
 

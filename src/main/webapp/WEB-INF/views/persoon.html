@@ -13,11 +13,11 @@
 <div class="container">
     <div class="text-left">
         <h1>Details van persoon</h1>
-        <p><b>Id:</b> <span th:text="${id}">id</span> </p>
-        <p><b>Voornaam:</b> <span th:text="${voornaam}">id</span> </p>
-        <p><b>Familienaam:</b> <span th:text="${familienaam}">id</span> </p>
-        <p><b>E-mailadres:</b> <span th:text="${emailadres}">id</span> </p>
-        <p><b>Paswoord:</b> <span th:text="${paswoord}">id</span> </p>
+        <p><b>Id:</b> <span th:text="${klant.id}">id</span> </p>
+        <p><b>Voornaam:</b> <span th:text="${klant.voornaam}">id</span> </p>
+        <p><b>Familienaam:</b> <span th:text="${klant.familienaam}">id</span> </p>
+        <p><b>E-mailadres:</b> <span th:text="${klant.emailadres}">id</span> </p>
+        <p><b>Paswoord:</b> <span th:text="${klant.paswoord}">id</span> </p>
         <a th:href="@{/home.html}">Lijst van alle personen</a>
     </div>
     <div th:replace="fragments/footer :: footer">&copy; 2013 The Static Templates</div>

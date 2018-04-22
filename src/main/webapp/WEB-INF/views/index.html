@@ -14,10 +14,10 @@
     <div class="text-left">
         <h1>Lijst van personen</h1>
         <ul style="list-style-type: none;">
-        	<li th:each="persoon : ${personen}">
-        		<a th:href="@{/persoon.html(id=${persoon.id})}">
-	   	     		<span th:text="${persoon.voornaam}">voornaam</span>
-	   	     		<span th:text="${persoon.familienaam}">famillienaam</span>
+        	<li th:each="klant : ${klanten}">
+        		<a th:href="@{/persoon.html(id=${klant.id})}">
+	   	     		<span th:text="${klant.voornaam}">voornaam</span>
+	   	     		<span th:text="${klant.familienaam}">famillienaam</span>
 	   	     	</a>
    	     	</li>
         </ul>

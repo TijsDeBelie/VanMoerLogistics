@@ -21,6 +21,7 @@ import javax.persistence.Table;
 
 
 @Entity
+@Table(name="klant")
 public class Klant extends Rol {
 	@Column(name="bedrijfsnaam")
 	private String bedrijfsnaam;
