@@ -1,9 +1,6 @@
 
 package be.odisee.brainstorm.domain;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 /**
@@ -19,7 +16,7 @@ public abstract  class Rol {
 	private String familienaam;
 	@Column(name="gebruikersnaam")
 	private String gebruikersnaam;
-	@Id
+	@Id @GeneratedValue
 	@Column(name="id")
 	private int id;
 	@Column(name="paswoord")

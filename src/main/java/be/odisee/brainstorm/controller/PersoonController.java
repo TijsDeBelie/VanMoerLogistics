@@ -41,15 +41,15 @@ public class PersoonController {
     }
     // je zal naar persoon.jsp gaan
     
-    @RequestMapping(value={"/nieuweKlant.html"},method=RequestMethod.GET)
+    @RequestMapping(value={"/nieuwePersoon.html"},method=RequestMethod.GET)
     public String klantFormulier(ModelMap model){
         Klant klant = new Klant();
         model.addAttribute("deklant", klant);
-        return "/nieuweKlant";
+        return "nieuwePersoon";
     }
     // je zal naar nieuwePersoon.jsp gaan
 
-    @RequestMapping(value={"/nieuweKlant.html"},method=RequestMethod.POST)
+    @RequestMapping(value={"/nieuwePersoon.html"},method=RequestMethod.POST)
     public String persoonToevoegen(@ModelAttribute("deklant") Klant klant, ModelMap model){
         Klant toegevoegdKlant = brainstormSessieService.voegKlantToe(klant.getVoornaam(),
                 klant.getFamilienaam(),
@@ -58,7 +58,7 @@ public class PersoonController {
                 klant.getBedrijfsnaam(),
                 klant.getEmailadres());
         System.out.println("DEBUG klantgegevens familienaam: "+klant.getFamilienaam());
-        return "redirect:klant.html?id="+toegevoegdKlant.getId();
+        return "redirect:persoon.html?id="+toegevoegdKlant.getId();
     }
     // je zal naar de detailpagina van de toegevoegde persoon gaan
 

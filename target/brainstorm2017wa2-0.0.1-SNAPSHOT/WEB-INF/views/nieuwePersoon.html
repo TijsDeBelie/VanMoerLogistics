@@ -13,12 +13,12 @@
 <div class="container">
     <div class="text-left">
         <h1>Nieuwe persoon</h1>
-        <form method="POST" th:object="${depersoon}">
+        <form method="POST" th:object="${deklant}">
         	<fieldset>
-                <div><label>Voornaam:</label><input type="text" th:field = "*{klant.voornaam}"/></div>
-                <div><label>Familienaam:</label><input type="text" th:field = "*{klant.familienaam}"/></div>
-                <div><label>E-mailadres:</label><input type="text" th:field = "*{klant.emailadres}"/></div>
-                <div><label>Paswoord:</label><input type="text" th:field = "*{klant.paswoord}"/></div>
+                <div><label>Voornaam:</label><input type="text" th:field = "*{voornaam}"/></div>
+                <div><label>Familienaam:</label><input type="text" th:field = "*{familienaam}"/></div>
+                <div><label>E-mailadres:</label><input type="text" th:field = "*{emailadres}"/></div>
+                <div><label>Paswoord:</label><input type="text" th:field = "*{paswoord}"/></div>
                 <div><input name="submit" type="submit" value="save"/></div>
         	</fieldset>
         </form>
