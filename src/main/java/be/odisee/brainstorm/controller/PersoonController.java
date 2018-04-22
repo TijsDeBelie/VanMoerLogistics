@@ -29,7 +29,7 @@ public class PersoonController {
     public String persoonDetail(@RequestParam("id") Integer id, ModelMap model){
         Klant klant = brainstormSessieService.zoekKlantMetId(id);
         model.addAttribute("klant", klant);
-        return "klant";
+        return "persoon";
     }
     // je zal naar persoon.jsp gaan
     
@@ -37,7 +37,7 @@ public class PersoonController {
     public String persoonDetailViaEmail(@RequestParam("email") String email, ModelMap model){
         Klant klant = brainstormSessieService.zoekKlantMetEmail(email);
         model.addAttribute("klant", klant);
-        return "klant";
+        return "persoon";
     }
     // je zal naar persoon.jsp gaan
     
