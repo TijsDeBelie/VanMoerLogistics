@@ -3,6 +3,12 @@ package be.odisee.brainstorm.domain;
 import javax.persistence.*;
 import java.util.List;
 
+/**
+ * @author aikod
+ * @version 1.0
+ * @created 25-Mar-2018 23:18:19
+ */
+
 @Entity
 @Table(name="rol")
 public abstract  class Rol {

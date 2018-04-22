@@ -16,9 +16,9 @@ Feature: Add Customer
       | label           | data         |
       | Voornaam:       | Sanne        |
       | Familienaam:    | Putzeys      |
-      | Gebruikersnaam: | SanPut      |
+      | Gebruikersnaam: | raggamuffin      |
       | E-mailadres:    | selah@sue.be |
-      | Paswoord:       | raggamuffin  |
+      | Paswoord:       | SanPut  |
     When I click the Lijst van alle klanten Link
     Then I should see a list containing "Sanne Putzeys"
     And I close the browser
