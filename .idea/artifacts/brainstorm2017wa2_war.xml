@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="brainstorm2017wa2:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="brainstorm2017wa2-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="brainstorm2017wa2:war exploded" />
-    </root>
-  </artifact>
-</component>
